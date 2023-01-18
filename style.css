@@ -3,9 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+ :root {
+  font-size: 62,5%;
+  --fs-body: 1.6rem;
+
+  --bg-color:#0a0909;
+ }
 
 body {
-  background-color: #09090A;
+  font-size: var(--fs-body);
+  background-color: var(--bg-color);
   color: white;
 
   display: grid;
